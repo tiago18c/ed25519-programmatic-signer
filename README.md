@@ -9,12 +9,14 @@ granted to PDAs derived from the authority's keys. These PDAs hold funds or serv
 other accounts.
 
 > [!WARNING]
-> Deployed on Devnet only and not yet fully audited. The crates on crates.io are name placeholders and the npm package
-> is not yet published.
+> This is a fork of [solana-program/ed25519-programmatic-signer](https://github.com/solana-program/ed25519-programmatic-signer)
+> that runs upstream's programs under its own program IDs, for deployment on mainnet. Upstream is not yet fully
+> audited. Addresses derived under these IDs (programmatic signers, the transition signer) differ from upstream's. See
+> [MAINNET.md](MAINNET.md) for how to build and deploy.
 
-- **Ed25519 Signer:** `EdSigVfK1DkeMrjFNDMjwfQaJPhPTtX7jW8uPv3oKEgN`
-- **Message Executor:** `ExecxgyHYsAXB4c5dZodV1zJZ9hqfsDCYkRDRATrpkFR`
-- **Nonce:** `Noncediea1fH12usShuQAz28UhgAeuE5Maf32LsMUQB`
+- **Ed25519 Signer:** `Sig8PHhDifGhptyvrxGRoNNHJSvKYBfSjbxBchTay9E`
+- **Message Executor:** `ExeXHWU2yrgUrKQg4QcjqnniW6rWYvqBVP36cq5uwTSp`
+- **Nonce:** `NoncFMHL3z7njAbTPMQfscuyg2efjVADwfrhffgBv2h`
 
 ## Documentation
 

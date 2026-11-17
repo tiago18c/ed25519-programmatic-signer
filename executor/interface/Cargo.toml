@@ -18,7 +18,7 @@ codama = ["dep:codama-macros"]
 pre-release-hook = ["sh", "-c", '[ "$DRY_RUN" = true ] || make -C "$WORKSPACE_ROOT" generate-idl-workspace']
 
 [package.metadata.solana]
-program-id = "ExecxgyHYsAXB4c5dZodV1zJZ9hqfsDCYkRDRATrpkFR"
+program-id = "ExeXHWU2yrgUrKQg4QcjqnniW6rWYvqBVP36cq5uwTSp"
 
 [lints]
 workspace = true

@@ -7,7 +7,7 @@ pub mod error;
 pub mod instruction;
 pub mod pda;
 
-solana_address::declare_id!("EdSigVfK1DkeMrjFNDMjwfQaJPhPTtX7jW8uPv3oKEgN");
+solana_address::declare_id!("Sig8PHhDifGhptyvrxGRoNNHJSvKYBfSjbxBchTay9E");
 
 #[cfg(feature = "codama")]
 codama_macros::codama_program!(name = "ed25519Signer");

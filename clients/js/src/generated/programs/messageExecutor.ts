@@ -33,7 +33,7 @@ import {
 import { findTransitionSignerPda } from '../pdas';
 
 export const MESSAGE_EXECUTOR_PROGRAM_ADDRESS =
-    'ExecxgyHYsAXB4c5dZodV1zJZ9hqfsDCYkRDRATrpkFR' as Address<'ExecxgyHYsAXB4c5dZodV1zJZ9hqfsDCYkRDRATrpkFR'>;
+    'ExeXHWU2yrgUrKQg4QcjqnniW6rWYvqBVP36cq5uwTSp' as Address<'ExeXHWU2yrgUrKQg4QcjqnniW6rWYvqBVP36cq5uwTSp'>;
 
 export enum MessageExecutorInstruction {
     Execute,
@@ -52,7 +52,7 @@ export function identifyMessageExecutorInstruction(
     });
 }
 
-export type ParsedMessageExecutorInstruction<TProgram extends string = 'ExecxgyHYsAXB4c5dZodV1zJZ9hqfsDCYkRDRATrpkFR'> =
+export type ParsedMessageExecutorInstruction<TProgram extends string = 'ExeXHWU2yrgUrKQg4QcjqnniW6rWYvqBVP36cq5uwTSp'> =
     { instructionType: MessageExecutorInstruction.Execute } & ParsedExecuteInstruction<TProgram>;
 
 export function parseMessageExecutorInstruction<TProgram extends string>(

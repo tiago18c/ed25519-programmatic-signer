@@ -57,13 +57,13 @@ pub enum Instruction {
         codama(account(
             name = "nonce_program",
             docs = "SPL Nonce program",
-            default_value = public_key("Noncediea1fH12usShuQAz28UhgAeuE5Maf32LsMUQB"),
+            default_value = public_key("NoncFMHL3z7njAbTPMQfscuyg2efjVADwfrhffgBv2h"),
             display(skip = always)
         )),
         codama(account(
             name = "transition_signer",
             docs = "Executor transition signer",
-            default_value = public_key("EjCSGNbrrM7YJBwR9iqnrb87L1TYHfUtZ5L4gwQjWLFg"),
+            default_value = public_key("8foN7sp8oHRj51Zq8t2ctrU2SjxYETjsYTnBn2AFVMBF"),
             display(skip = always)
         ))
     )]
