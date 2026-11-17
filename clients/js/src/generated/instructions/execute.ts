@@ -52,8 +52,8 @@ export type ExecuteInstruction<
     TProgram extends string = typeof MESSAGE_EXECUTOR_PROGRAM_ADDRESS,
     TAccountNonceAuthority extends string | AccountMeta<string> = string,
     TAccountNonceAccount extends string | AccountMeta<string> = string,
-    TAccountNonceProgram extends string | AccountMeta<string> = 'Noncediea1fH12usShuQAz28UhgAeuE5Maf32LsMUQB',
-    TAccountTransitionSigner extends string | AccountMeta<string> = 'EjCSGNbrrM7YJBwR9iqnrb87L1TYHfUtZ5L4gwQjWLFg',
+    TAccountNonceProgram extends string | AccountMeta<string> = 'NoncFMHL3z7njAbTPMQfscuyg2efjVADwfrhffgBv2h',
+    TAccountTransitionSigner extends string | AccountMeta<string> = '8foN7sp8oHRj51Zq8t2ctrU2SjxYETjsYTnBn2AFVMBF',
     TRemainingAccounts extends readonly AccountMeta<string>[] = [],
 > = Instruction<TProgram> &
     InstructionWithData<ReadonlyUint8Array> &
@@ -154,11 +154,11 @@ export function getExecuteInstruction<
     // Resolve default values.
     if (!accounts.nonceProgram.value) {
         accounts.nonceProgram.value =
-            'Noncediea1fH12usShuQAz28UhgAeuE5Maf32LsMUQB' as Address<'Noncediea1fH12usShuQAz28UhgAeuE5Maf32LsMUQB'>;
+            'NoncFMHL3z7njAbTPMQfscuyg2efjVADwfrhffgBv2h' as Address<'NoncFMHL3z7njAbTPMQfscuyg2efjVADwfrhffgBv2h'>;
     }
     if (!accounts.transitionSigner.value) {
         accounts.transitionSigner.value =
-            'EjCSGNbrrM7YJBwR9iqnrb87L1TYHfUtZ5L4gwQjWLFg' as Address<'EjCSGNbrrM7YJBwR9iqnrb87L1TYHfUtZ5L4gwQjWLFg'>;
+            '8foN7sp8oHRj51Zq8t2ctrU2SjxYETjsYTnBn2AFVMBF' as Address<'8foN7sp8oHRj51Zq8t2ctrU2SjxYETjsYTnBn2AFVMBF'>;
     }
 
     // Remaining accounts.

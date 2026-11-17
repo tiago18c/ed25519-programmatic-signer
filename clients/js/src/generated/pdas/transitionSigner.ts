@@ -19,7 +19,7 @@ export async function findTransitionSignerPda(
 ): Promise<ProgramDerivedAddress> {
     const {
         programAddress:
-            programAddressInput = 'ExecxgyHYsAXB4c5dZodV1zJZ9hqfsDCYkRDRATrpkFR' as Address<'ExecxgyHYsAXB4c5dZodV1zJZ9hqfsDCYkRDRATrpkFR'>,
+            programAddressInput = 'ExeXHWU2yrgUrKQg4QcjqnniW6rWYvqBVP36cq5uwTSp' as Address<'ExeXHWU2yrgUrKQg4QcjqnniW6rWYvqBVP36cq5uwTSp'>,
     } = config;
     const programAddress = typeof programAddressInput === 'string' ? programAddressInput : programAddressInput.address;
     return await getProgramDerivedAddress({ programAddress, seeds: [getUtf8Encoder().encode('transition-signer')] });

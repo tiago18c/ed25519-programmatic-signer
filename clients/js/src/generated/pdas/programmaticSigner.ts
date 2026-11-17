@@ -25,7 +25,7 @@ export async function findProgrammaticSignerPda(
 ): Promise<ProgramDerivedAddress> {
     const {
         programAddress:
-            programAddressInput = 'EdSigVfK1DkeMrjFNDMjwfQaJPhPTtX7jW8uPv3oKEgN' as Address<'EdSigVfK1DkeMrjFNDMjwfQaJPhPTtX7jW8uPv3oKEgN'>,
+            programAddressInput = 'Sig8PHhDifGhptyvrxGRoNNHJSvKYBfSjbxBchTay9E' as Address<'Sig8PHhDifGhptyvrxGRoNNHJSvKYBfSjbxBchTay9E'>,
     } = config;
     const programAddress = typeof programAddressInput === 'string' ? programAddressInput : programAddressInput.address;
     return await getProgramDerivedAddress({

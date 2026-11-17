@@ -32,7 +32,7 @@ import {
 import { findProgrammaticSignerPda } from '../pdas';
 
 export const ED25519_SIGNER_PROGRAM_ADDRESS =
-    'EdSigVfK1DkeMrjFNDMjwfQaJPhPTtX7jW8uPv3oKEgN' as Address<'EdSigVfK1DkeMrjFNDMjwfQaJPhPTtX7jW8uPv3oKEgN'>;
+    'Sig8PHhDifGhptyvrxGRoNNHJSvKYBfSjbxBchTay9E' as Address<'Sig8PHhDifGhptyvrxGRoNNHJSvKYBfSjbxBchTay9E'>;
 
 export enum Ed25519SignerInstruction {
     Submit,
@@ -51,7 +51,7 @@ export function identifyEd25519SignerInstruction(
     });
 }
 
-export type ParsedEd25519SignerInstruction<TProgram extends string = 'EdSigVfK1DkeMrjFNDMjwfQaJPhPTtX7jW8uPv3oKEgN'> = {
+export type ParsedEd25519SignerInstruction<TProgram extends string = 'Sig8PHhDifGhptyvrxGRoNNHJSvKYBfSjbxBchTay9E'> = {
     instructionType: Ed25519SignerInstruction.Submit;
 } & ParsedSubmitInstruction<TProgram>;
 

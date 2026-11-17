@@ -5,7 +5,7 @@
   "program": {
     "kind": "programNode",
     "name": "ed25519Signer",
-    "publicKey": "EdSigVfK1DkeMrjFNDMjwfQaJPhPTtX7jW8uPv3oKEgN",
+    "publicKey": "Sig8PHhDifGhptyvrxGRoNNHJSvKYBfSjbxBchTay9E",
     "version": "1.0.0",
     "instructions": [
       {
